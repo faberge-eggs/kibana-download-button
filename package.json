@@ -1,6 +1,6 @@
 {
   "name": "download_button",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Download logs to the file",
   "main": "index.js",
   "kibana": {

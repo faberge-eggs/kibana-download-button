@@ -20,7 +20,6 @@ export default function (kibana) {
         method: 'POST',
         async handler(req, reply) {
           const esHost = server.config().get('elasticsearch.hosts')[0]
-          console.log(esHost)
           let resp = await fetch(`${esHost}/_search?scroll=5m`, {
             method: 'POST',
             headers: {
@@ -37,7 +36,6 @@ export default function (kibana) {
         method: 'POST',
         async handler(req, reply) {
           const esHost = server.config().get('elasticsearch.hosts')[0]
-          console.log(esHost)
           let resp = await fetch(`${esHost}/_search/scroll`, {
             method: 'POST',
             headers: {

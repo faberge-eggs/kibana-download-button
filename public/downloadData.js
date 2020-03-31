@@ -3,6 +3,7 @@ import { downloadText } from 'download.js';
 let outputData = [];
 
 export async function downloadData(body) {
+  outputData = [];
   let resp = await fetch('api/download', {
     method: 'POST',
     headers: {
