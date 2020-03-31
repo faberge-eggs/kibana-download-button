@@ -1,6 +1,7 @@
 # download_button
 
-> Download logs to the file
+> Kibana plugin for kibana 6.8.1
+  Downloads search result to the file
 
 ---
 
